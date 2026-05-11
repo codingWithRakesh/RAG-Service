@@ -1,0 +1,92 @@
+{
+  "plans": [
+    {
+      "id": "starter",
+      "title": "Free",
+      "price": 0,
+      "currency": "INR",
+      "symbol": "₹",
+      "interval": "month",
+      "planType": "subscription",
+      "priceId": "starter_499_month",
+      "ctaType": "current",
+      "disabled": true,
+      "badge": null,
+      "popular": false,
+      "sortOrder": 1,
+      "description": "For small RAG apps & testing",
+      "features": [
+        "Basic vector search.",
+        "Limited document upload.",
+        "Standard response speed.",
+        "Community support."
+      ],
+      "limits": {
+        "documents": 100,
+        "queriesPerMonth": 5000,
+        "storage": "1GB"
+      },
+      "buttonText": "Current Plan"
+    },
+    {
+      "id": "pro",
+      "title": "Pro",
+      "price": 1399,
+      "currency": "INR",
+      "symbol": "₹",
+      "interval": "month",
+      "planType": "subscription",
+      "priceId": "pro_1499_month",
+      "ctaType": "upgrade",
+      "disabled": false,
+      "badge": "Most Popular",
+      "popular": true,
+      "sortOrder": 2,
+      "description": "Best for production RAG systems",
+      "features": [
+        "Advanced retrieval pipelines",
+        "Higher document limits",
+        "Faster responses",
+        "Conversation memory",
+        "Custom embeddings",
+        "Priority support"
+      ],
+      "limits": {
+        "documents": 1000,
+        "queriesPerMonth": 50000,
+        "storage": "10GB"
+      },
+      "buttonText": "Upgrade to Pro"
+    },
+    {
+      "id": "enterprise",
+      "title": "Enterprise",
+      "price": 9999,
+      "currency": "INR",
+      "symbol": "₹",
+      "interval": "month",
+      "planType": "subscription",
+      "priceId": "enterprise_9999_month",
+      "ctaType": "contact",
+      "disabled": false,
+      "badge": null,
+      "popular": false,
+      "sortOrder": 3,
+      "description": "Scale your AI system",
+      "features": [
+        "Unlimited vector storage",
+        "High-performance inference",
+        "Full context memory",
+        "Multi-agent workflows",
+        "Custom integrations",
+        "Dedicated support"
+      ],
+      "limits": {
+        "documents": "unlimited",
+        "queriesPerMonth": "unlimited",
+        "storage": "unlimited"
+      },
+      "buttonText": "Contact Sales"
+    }
+  ]
+}
